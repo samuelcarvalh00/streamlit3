@@ -224,16 +224,4 @@ if __name__ == "__main__":
     print("🧪 MODO TESTE - WHATSAPP API")
     print("=" * 40)
     
-    numero_teste = "+5585988230252"
     
-    print("1. Testando conexão...")
-    if verificar_conexao_twilio():
-        print("\n2. Enviando mensagem de teste...")
-        if enviar_mensagem_teste(numero_teste):
-            print("\n🎉 TUDO FUNCIONANDO!")
-        else:
-            print("\n❌ PROBLEMA NO ENVIO")
-            print(obter_instrucoes_sandbox())
-    else:
-        print("\n❌ PROBLEMA NA CONEXÃO")
-        print("Verifique suas credenciais Account SID e Auth Token")
