@@ -1,12 +1,21 @@
-# Streamlit para interface web
+# Framework principal para interface web
 streamlit>=1.28.0
 
-# Requests para chamadas HTTP/API
+# API do WhatsApp via Twilio
+twilio>=8.5.0
+
+# Requisições HTTP para API de CEP
 requests>=2.31.0
 
-numpy==2.3.1
-twilio>=9.3.3
-# Para desenvolvimento (opcional)
-python-dotenv>=1.0.0
+# Banco de dados SQLite (já incluído no Python, mas listando para clareza)
+# sqlite3 - Built-in Python module
 
-twilio = >=9.3.3
+# Dependências adicionais que podem ser úteis
+python-dotenv>=1.0.0  # Para variáveis de ambiente (recomendado para credenciais)
+pandas>=2.0.0         # Para manipulação de dados (útil para relatórios)
+plotly>=5.15.0        # Para gráficos no painel admin (opcional)
+
+# Dependências de desenvolvimento (opcional)
+pytest>=7.4.0         # Para testes
+black>=23.7.0         # Para formatação de código
+flake8>=6.0.0         # Para linting
