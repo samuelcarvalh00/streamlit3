@@ -17,4 +17,4 @@ requests>=2.31.0
 # Para desenvolvimento (opcional)
 python-dotenv>=1.0.0
 
-twilio = ">=9.3.3"
+twilio = >=9.3.3
