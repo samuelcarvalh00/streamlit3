@@ -1,0 +1,18 @@
+# Streamlit para interface web
+streamlit>=1.28.0
+
+# Requests para chamadas HTTP/API
+requests>=2.31.0
+
+# Biblioteca padrão do Python (não precisa instalar)
+# sqlite3 - incluído no Python
+# json - incluído no Python
+# datetime - incluído no Python
+# os - incluído no Python
+# sys - incluído no Python
+# re - incluído no Python
+# base64 - incluído no Python
+# urllib - incluído no Python
+
+# Para desenvolvimento (opcional)
+python-dotenv>=1.0.0
